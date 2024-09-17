@@ -6,7 +6,7 @@ import {
   MenuItems,
   MenuItem,
 } from "@headlessui/react"
-import PoomNav from "../../public/profilePics/navPic.jpg"
+import PoomNavPic from "../../public/profilePics/navPic.png"
 
 const navigation = [
   {name: "Home", to: "/"},
@@ -25,8 +25,8 @@ const Navbar = () => {
                 key={item.name}
                 to={item.to}
                 className={({isActive}) =>
-                  `block rounded-md px-3 py-2 text-xl font-medium hover:bg-gray-600 hover:text-white tracking-wide ${
-                    isActive ? "underline text-slate-100" : "text-gray-300"
+                  `block rounded-md px-3 py-2 text-xl font-medium  hover:text-white tracking-wide ${
+                    isActive ? "text-slate-100  font-[759] " : "text-gray-300"
                   }`
                 }
               >
@@ -35,12 +35,12 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Profile dropdown */}
+          {/* Profile dropdown
           <Menu as="div" className="relative ml-3">
             <div>
               <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                 <span className="absolute -inset-1.5" />
-                <img alt="" src={PoomNav} className="h-12 w-12  rounded-full" />
+                <img alt="" src={PoomNavPic} className="h-12 w-12  rounded-full" />
               </MenuButton>
             </div>
             <MenuItems
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </a>
               </MenuItem>
             </MenuItems>
-          </Menu>
+          </Menu> */}
         </div>
       </div>
 
