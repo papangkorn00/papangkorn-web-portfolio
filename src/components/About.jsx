@@ -2,9 +2,11 @@ import Navbar from "./Navbar"
 
 const About = () => {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+
+      <div className="bg-base min-h-screen"></div>
+    </>
   )
 }
 

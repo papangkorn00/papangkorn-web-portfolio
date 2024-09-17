@@ -2,9 +2,11 @@ import Navbar from "./Navbar"
 
 const Portfolio = () => {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+
+      <div className="bg-base min-h-screen"></div>
+    </>
   )
 }
 
