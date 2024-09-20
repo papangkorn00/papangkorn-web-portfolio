@@ -12,8 +12,8 @@ import Portfolio from "./components/Portfolio.jsx"
 
 const router = createBrowserRouter([
   {path:"/", element:<Home/>},
-  {path:"/about", element:<About/>},
-  {path:"/portfolio", element:<Portfolio/>},
+  // {path:"/about", element:<About/>},
+  // {path:"/portfolio", element:<Portfolio/>},
   
   // {path:"/navbar", element:<Navbar/>}
 
