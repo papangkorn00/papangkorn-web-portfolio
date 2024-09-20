@@ -10,8 +10,8 @@ import PoomNavPic from "../../public/profilePics/navPic.png"
 
 const navigation = [
   {name: "Home", to: "/"},
-  {name: "About", to: "/about"},
-  {name: "Portfolio", to: "/portfolio"},
+  // {name: "About", to: "/about"},
+  // {name: "Portfolio", to: "/portfolio"},
 ]
 
 const Navbar = () => {
