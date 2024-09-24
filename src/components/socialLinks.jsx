@@ -1,4 +1,4 @@
-import {FaGithub, FaLinkedin} from "react-icons/fa"
+import {FaGithub, FaLinkedin, FaMedium} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
 
 const socialLinks = () => {
@@ -31,6 +31,16 @@ const socialLinks = () => {
         </>
       ),
       href: "mailto:papangkorn.poomm@gmail.com",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          Medium <FaMedium size={30} />
+        </>
+      ),
+      href: "https://medium.com/@papangkorn.poomm",
       style: "rounded-tr-md",
     },
   ]
