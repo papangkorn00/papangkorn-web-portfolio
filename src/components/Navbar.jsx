@@ -25,8 +25,8 @@ const Navbar = () => {
                 key={item.name}
                 to={item.to}
                 className={({isActive}) =>
-                  `block rounded-md px-3 py-2 text-xl  font-apercu hover:text-white tracking-wide ${
-                    isActive ? "text-slate-100  font-[759]" : "text-gray-300"
+                  `block rounded-md px-3 py-2 text-xl font-apercu hover:text-white tracking-wide ${
+                    isActive ? "text-slate-100 font-[759]" : "text-gray-300"
                   }`
                 }
               >
