@@ -17,7 +17,7 @@ const navigation = [
 const Navbar = () => {
   return (
     <Disclosure as="nav" className="">
-      <div className="fixed w-full mx-auto bg-black rounded-b-xl  px-2 sm:px-6 lg:px-10 ">
+      <div className="hid fixed w-full mx-auto bg-black rounded-b-xl  px-2 sm:px-6 lg:px-10 ">
         <div className="flex h-[6rem] items-center justify-between ">
           <div className="flex space-x-5">
             {navigation.map((item) => (
@@ -25,7 +25,7 @@ const Navbar = () => {
                 key={item.name}
                 to={item.to}
                 className={({isActive}) =>
-                  `block rounded-md px-3 py-2 text-xl font-medium  hover:text-white tracking-wide ${
+                  `block rounded-md px-3 py-2 text-xl  font-apercu hover:text-white tracking-wide ${
                     isActive ? "text-slate-100  font-[759] " : "text-gray-300"
                   }`
                 }

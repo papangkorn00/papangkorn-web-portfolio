@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "apercu";
+  src: url("/src/assets/Apercu Font Family/Apercu Regular.otf")
+    format("OpenType");
+}
+
+@font-face {
+  font-family: "media-bold";
+  src: url("/src/assets/media-sans-font-family-1735972646-0/mediasansextended-bold-TRIAL-BF63c7546bb2aa0.otf")
+    format("OpenType");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
