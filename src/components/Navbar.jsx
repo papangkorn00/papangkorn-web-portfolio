@@ -17,8 +17,8 @@ const navigation = [
 const Navbar = () => {
   return (
     <Disclosure as="nav" className="">
-      <div className=" fixed w-full mx-auto bg-black rounded-b-xl  px-2 sm:px-6 lg:px-10 ">
-        <div className="flex h-[6rem] items-center justify-between ">
+      <div className="fixed w-full mx-auto bg-black rounded-b-xl  px-2 sm:px-6 lg:px-10 ">
+        <div className="hidden lg:flex lg:h-[6rem] lg:items-center lg:justify-between ">
           <div className="flex space-x-5">
             {navigation.map((item) => (
               <NavLink
