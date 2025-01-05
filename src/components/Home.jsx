@@ -18,10 +18,10 @@ const Home = () => {
               KiJSAKULRAT😉
             </h2> */}
 
-            <h1 className="text-xl font-bold font-media tracking-wider lg:text-5xl ">
+            <h1 className="text-xl font-bold font-media tracking-wider md:text-4xl ">
               Hi, I'm Poom! 😉
             </h1>
-            <h2 className="text-xl font-extrabold font-media tracking-wider md:text-xl">
+            <h2 className="text-xl font-extrabold font-media tracking-wider md:text-2xl">
               Full Stack Developer☕
             </h2>
           </div>
