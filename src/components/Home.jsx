@@ -8,7 +8,7 @@ const Home = () => {
       <Navbar />
 
       <div className="bg-base min-h-screen w-screen flex justify-center items-center">
-        <div className="flex flex-col lg:flex-row items-center gap-x-2">
+        <div className="flex flex-col lg:flex-row items-center gap-x-2 lg:mx-20">
           {/*Poom*/}
           <div className="text-header">
             {/* <h1 className="text-2xl font-extrabold font-media tracking-wider  lg:text-6xl">
@@ -18,11 +18,11 @@ const Home = () => {
               KiJSAKULRAT😉
             </h2> */}
 
-            <h1 className="text-xl font-bold font-media tracking-wider lg:text-6xl ">
-              I'M Poom😉
+            <h1 className="text-xl font-bold font-media tracking-wider lg:text-5xl ">
+              Hi, I'm Poom! 😉
             </h1>
-            <h2 className="text-xl font-extrabold font-media tracking-wider lg:text-5xl ">
-              Full Stack Developer
+            <h2 className="text-xl font-extrabold font-media tracking-wider md:text-xl">
+              Full Stack Developer☕
             </h2>
           </div>
           {/* Poom*/}
