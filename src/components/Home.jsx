@@ -1,5 +1,5 @@
 import Navbar from "./Navbar"
-import PoomImgHome from "../../public/profilePics/poomImg.png"
+import PoomImgHome from "../assets/img/profilePics/poomImg.png"
 import SocialLinks from "./socialLinks.jsx"
 
 const Home = () => {
@@ -8,9 +8,9 @@ const Home = () => {
       <Navbar />
 
       <div className="bg-base min-h-screen w-screen flex justify-center items-center">
-        <div className="flex flex-col lg:flex-row items-center gap-x-2 lg:mx-20">
+        <div className="flex flex-col lg:flex-row items-center justify-center">
           {/*Poom*/}
-          <div className="text-header">
+          <div className="text-header w-3/4 md:w-2/5 lg:w-1/3">
             {/* <h1 className="text-2xl font-extrabold font-media tracking-wider  lg:text-6xl">
               PAPANGKORN
             </h1>
@@ -18,11 +18,12 @@ const Home = () => {
               KiJSAKULRAT😉
             </h2> */}
 
-            <h1 className="text-xl font-bold font-media tracking-wider md:text-4xl ">
-              Hi, I'm Poom! 😉
+            <h1 className="text-xl font-bold font-media tracking-wider md:text-4xl">
+              Hi, I&apos;m Poom! 😉
             </h1>
-            <h2 className="text-xl font-extrabold font-media tracking-wider md:text-2xl">
-              Full Stack Developer☕
+            <h2 className="text-xl md:text-2xl font-medium font-media tracking-wider text-wrap">
+              Developer who loves building websites and mastering new
+              technologies.
             </h2>
           </div>
           {/* Poom*/}

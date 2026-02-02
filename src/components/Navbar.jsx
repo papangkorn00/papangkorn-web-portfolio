@@ -1,12 +1,12 @@
 import {NavLink} from "react-router-dom"
 import {
   Disclosure,
-  Menu,
-  MenuButton,
-  MenuItems,
-  MenuItem,
+  // Menu,
+  // MenuButton,
+  // MenuItems,
+  // MenuItem,
 } from "@headlessui/react"
-import PoomNavPic from "../../public/profilePics/navPic.png"
+// import PoomNavPic from "../../public/profilePics/navPic.png"
 
 const navigation = [
   {name: "Home", to: "/"},
