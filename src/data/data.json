@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Kanban Board",
+    "images": [
+      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp",
+      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+    ],
+    "desc": "Task management platform using Vue.js and Tailwind CSS, providing full CRUD",
+    "status": "Completed",
+    "tags": [
+      "Vue.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Spring Boot",
+      "MySQL",
+      "Docker"
+    ],
+    "link": "https://github.com/INT221-INTEGRATED-TT1/INT221_Frontend-Kanban"
+  },
+  {
+    "id": 2,
+    "title": "Employees Management",
+    "images": [
+      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp",
+      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+    ],
+    "desc": "Employee feedback platform using Vue.js and Tailwind CSS for workplace improvement.",
+    "status": "Completed",
+    "tags": ["Vue.js", "Pinia", "Tailwind CSS", "Json-Server"],
+    "link": "https://employees-management-feedback.vercel.app"
+  },
+  {
+    "id": 3,
+    "title": "Comparative Study for Course Recommendation System",
+    "images": [
+      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp",
+      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+    ],
+    "desc": "Comparative study of Recommendation System models using SVD, SVD++, NMF, and k-NN.",
+    "status": "In Progress",
+    "tags": ["Python", "Scikit-learn", "Surprise"],
+    "link": null
+  }
+]
