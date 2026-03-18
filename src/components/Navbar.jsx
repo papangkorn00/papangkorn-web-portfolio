@@ -17,7 +17,7 @@ const navigation = [
 const Navbar = () => {
   return (
     <Disclosure as="nav">
-      <div className="fixed w-full mx-auto bg-black rounded-b-xl  px-2 sm:px-6 lg:px-10 ">
+      <div className="fixed z-50 w-full mx-auto bg-black rounded-b-xl  px-2 sm:px-6 lg:px-10 ">
         <div className="hidden lg:flex lg:h-24 lg:items-center lg:justify-between ">
           <div className="flex space-x-5">
             {navigation.map((item) => (
