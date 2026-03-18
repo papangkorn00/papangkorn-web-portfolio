@@ -4,7 +4,7 @@ import SocialLinks from "./socialLinks.jsx"
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Navbar />
 
       <div className="bg-base min-h-screen w-screen flex justify-center items-center">
@@ -23,14 +23,14 @@ const Home = () => {
             <img
               src={PoomImgHome}
               alt="PoomIMG"
-              className="max-w-[65%] lg:max-w-full lg:max-h-[100%]"
+              className="max-w-[65%] lg:max-w-full lg:max-h-full"
             />
           </div>
         </div>
       </div>
 
       <SocialLinks />
-    </>
+    </div>
   )
 }
 
