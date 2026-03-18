@@ -1,6 +1,5 @@
 import Navbar from "./Navbar"
-import SocialLinks from "./socialLinks"
-
+import SocialLinks from "./SocialLinks"
 
 const Portfolio = () => {
   return (
