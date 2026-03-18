@@ -1,6 +1,7 @@
 import Navbar from "./Navbar"
 import PoomImgHome from "../assets/img/profilePics/poomImg.png"
 import SocialLinks from "./SocialLinks.jsx"
+import {NavLink} from "react-router-dom"
 
 const Home = () => {
   return (
@@ -17,6 +18,12 @@ const Home = () => {
               Developer who loves building websites and mastering new
               technologies.
             </h2>
+
+            <div className="flex justify-end">
+              <button className="btn rounded-xl btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">
+                <NavLink to="/portfolio">See My Work</NavLink>
+              </button>
+            </div>
           </div>
 
           <div className="flex justify-center">
