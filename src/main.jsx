@@ -7,13 +7,13 @@ import {
 // import App from "./App.jsx"
 import "./index.css"
 import Home from "./components/Home.jsx"
-import About from "./components/About.jsx"
+// import About from "./components/About.jsx"
 import Portfolio from "./components/Portfolio.jsx"
 
 const router = createBrowserRouter([
   {path:"/", element:<Home/>},
   // {path:"/about", element:<About/>},
-  // {path:"/portfolio", element:<Portfolio/>},
+  {path:"/portfolio", element:<Portfolio/>},
   
   // {path:"/navbar", element:<Navbar/>}
 

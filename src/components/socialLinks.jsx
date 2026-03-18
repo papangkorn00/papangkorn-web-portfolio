@@ -1,7 +1,7 @@
 import {FaGithub, FaLinkedin, FaMedium} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
 
-const socialLinks = () => {
+const SocialLinks = () => {
   const links = [
     {
       id: 1,
@@ -72,4 +72,4 @@ const socialLinks = () => {
   )
 }
 
-export default socialLinks
+export default SocialLinks

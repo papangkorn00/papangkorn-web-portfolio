@@ -1,15 +1,41 @@
-@font-face {
-  font-family: "apercu";
-  src: url("/src/assets/Apercu Font Family/Apercu Regular.otf")
-    format("OpenType");
+@import 'tailwindcss';
+
+@theme {
+  --color-base: #e1e1e1;
+  --color-header: #000000;
+
+  --font-apercu: apercu, sans-serif;
+  --font-media: media-bold, sans-serif;
 }
 
-@font-face {
-  font-family: "media-bold";
-  src: url("/src/assets/media-sans-font-family-1735972646-0/mediasansextended-regular-TRIAL-BF63c7546b4aef3.otf")
-    format("OpenType");
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: 'apercu';
+    src: url('/src/assets/Apercu Font Family/Apercu Regular.otf')
+      format('OpenType');
+  }
+
+  @font-face {
+    font-family: 'media-bold';
+    src: url('/src/assets/media-sans-font-family-1735972646-0/mediasansextended-regular-TRIAL-BF63c7546b4aef3.otf')
+      format('OpenType');
+  }
+}
