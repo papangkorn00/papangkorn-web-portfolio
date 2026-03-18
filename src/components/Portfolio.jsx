@@ -1,5 +1,5 @@
 import Navbar from "./Navbar"
-// import SocialLinks from "./SocialLinks.jsx"
+import SocialLinks from "./socialLinks"
 
 
 const Portfolio = () => {
@@ -15,7 +15,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      {/* <SocialLinks /> */}
+      <SocialLinks />
     </div>
   )
 }

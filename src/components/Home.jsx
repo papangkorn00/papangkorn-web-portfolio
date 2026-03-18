@@ -1,6 +1,6 @@
 import Navbar from "./Navbar"
 import PoomImgHome from "../assets/img/profilePics/poomImg.png"
-// import SocialLinks from "./SocialLinks.jsx"
+import SocialLinks from "./socialLinks"
 import {NavLink} from "react-router-dom"
 
 const Home = () => {
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <SocialLinks /> */}
+      <SocialLinks />
     </div>
   )
 }
