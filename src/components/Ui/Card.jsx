@@ -23,7 +23,7 @@ const Card = ({data}) => {
               <img
                 src={img}
                 alt={`${data.title} ${index + 1}`}
-                className="h-48 w-full object-cover"
+                className="h-48 w-full object-fill"
               />
             </SwiperSlide>
           ))}
