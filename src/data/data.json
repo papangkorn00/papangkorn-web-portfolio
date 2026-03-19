@@ -3,10 +3,18 @@
     "id": 1,
     "title": "Kanban Board",
     "images": [
-      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp",
-      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221326305530050/1.png?ex=69bd7053&is=69bc1ed3&hm=d4c87fa6d7ec4e5ed7b18f05bac5eb55f2f1478999a79f93189824b1c19d0660&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221326687473685/2.png?ex=69bd7053&is=69bc1ed3&hm=56502d24c4f29614281c90368974d95de20afe2784ae649b2f78c37775885f06&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221327220015415/3.png?ex=69bd7053&is=69bc1ed3&hm=a4e91ecf41bbd5e34a3c16503d136731cacf000fb6feb401fbd769aee6b5b0b9&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221327798833237/4.png?ex=69bd7054&is=69bc1ed4&hm=81ca1318b9fd005d16d443c23c70240e56580ad6d6d6713d53b26b4ae2e760ce&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221328327180420/5.png?ex=69bd7054&is=69bc1ed4&hm=4153ba5679ea559982f97fb8dd8e4808f23d3877128a4f639b43bf585d02df88&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221328767717527/6.png?ex=69bd7054&is=69bc1ed4&hm=089df04a30146009ba068304bdf8a317dafff8724bfce47bb01337ce0d18d487&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221329203789986/7.png?ex=69bd7054&is=69bc1ed4&hm=a7fe1d0b67c13bd4ad2c899a9b524a9657bc5f2450f6937ad816043f87841847&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221329677750292/8.png?ex=69bd7054&is=69bc1ed4&hm=800c09c28304111a3d255ff3a796130cb26c44e1c608f2b0be88b5f784b65905&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221330160091187/9.png?ex=69bd7054&is=69bc1ed4&hm=89a7680dbe3bc70a702e68b440a2bd2ff3269cd73453a13a704b7f01a6762eb8&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484221325668253746/10.png?ex=69bd7053&is=69bc1ed3&hm=214e50fadddb72af4052bf208f2507e86c1476b5ce2db6fc4389de4bd50f2a8d&"
     ],
-    "desc": "Task management platform using Vue.js and Tailwind CSS, providing full CRUD",
+    "desc": "Task management Platform where users can create, edit and delete tasks. It also allows customization of task statuses. This project was developed using Vue.js, Spring Boot,  MySQL, Docker and JWT.",
     "status": "Completed",
     "tags": [
       "Vue.js",
@@ -22,24 +30,40 @@
     "id": 2,
     "title": "Employees Management",
     "images": [
-      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp",
-      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484222827270901851/1.png?ex=69bd71b9&is=69bc2039&hm=8a71f608e4bc4b47292c8c3ecc3e49c1c94bbe459fcdc408b1785e09615bfcdc&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484222827703042088/2.png?ex=69bd71b9&is=69bc2039&hm=a60d0a45cfe73a38825fdd1ba2a1a4f4afcb01cd7cc784d319a08504254a721d&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484222828147376170/3.png?ex=69bd71b9&is=69bc2039&hm=409a14fbdf3f353586ea38d394636a8027d28e21f381997e596f4fd6bf0d96af&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484222828688703568/4.png?ex=69bd71b9&is=69bc2039&hm=5758c4c71b8848b4e189f1219c94a2919450838171d2dba6ef5afac7678b3b27&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484222829078646965/5.png?ex=69bd71b9&is=69bc2039&hm=6bc949cd453f91e387b960d8720301cdf1d3dab089b327b95768ff06e168ee9b&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484222829535953048/6.png?ex=69bd71ba&is=69bc203a&hm=616b281c4c2bcd83293b664cdbb56400406b61fcfadd2deee3ccb741a1b5a2ab&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484222829896532008/7.png?ex=69bd71ba&is=69bc203a&hm=a30d0a830196847fbf7ed45753c2a0da1165fed08b704f8839325ba1ea27ac5c&"
     ],
-    "desc": "Employee feedback platform using Vue.js and Tailwind CSS for workplace improvement.",
+    "desc": "Website that designed to collect personal opinions from employees to help improve the company's environment. It also includes features such as user authentication to ensure proper access.",
     "status": "Completed",
     "tags": ["Vue.js", "Pinia", "Tailwind CSS", "Json-Server"],
     "link": "https://employees-management-feedback.vercel.app"
   },
   {
     "id": 3,
-    "title": "Comparative Study for Course Recommendation System",
+    "title": "Simon Says Game",
     "images": [
-      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp",
-      "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484247088991834303/1.png?ex=69bd8851&is=69bc36d1&hm=3fd2308e06ef4b76d7b1546c1397c8539304275564cd2da16ce106c2139f9621&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484247089348083893/2.png?ex=69bd8852&is=69bc36d2&hm=9820f102e37edffa485a8708ddfca4ea20ff23017def3d3352ba0462777df7cd&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484247089742352394/3.png?ex=69bd8852&is=69bc36d2&hm=1b70b6350473bd60cdd8b9ba1c240fc187d8ae6c636073e86bbfb0eb380df3ab&",
+      "https://cdn.discordapp.com/attachments/1075828626152488983/1484247090224955512/4.png?ex=69bd8852&is=69bc36d2&hm=b2f200c9bbb8f94158225d102ac095b8e20e29d1f6ea6d40b0953f70b9ff24ce&"
     ],
-    "desc": "Comparative study of Recommendation System models using SVD, SVD++, NMF, and k-NN.",
+    "desc": "Single-player game where the system generates a random sequence of colors, and the user needs to replicate the sequence by selecting the colors in the correct order.",
+    "status": "Completed",
+    "tags": ["Vue.js", "Tailwind CSS"],
+    "link": "https://xiaoyi-say.vercel.app"
+  },
+  {
+    "id": 4,
+    "title": "Comparative Study for Course Recommendation System",
+    "images": [],
+    "desc": "Senior Project comparative study of Recommendation System models using SVD, SVD++, NMF, and k-NN.",
     "status": "In Progress",
-    "tags": ["Python", "Scikit-learn", "Surprise"],
+    "tags": ["Python", "Scikit-learn", "Surprise Package"],
     "link": null
   }
 ]
