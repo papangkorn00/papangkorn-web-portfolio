@@ -23,7 +23,7 @@ const Card = ({data}) => {
               <img
                 src={img}
                 alt={`${data.title} ${index + 1}`}
-                className="h-48 w-full object-fill"
+                className="h-48 w-full object-contain"
               />
             </SwiperSlide>
           ))}
@@ -49,7 +49,11 @@ const Card = ({data}) => {
         <a
           href={data.link}
           target="_blank"
-          className={ data.link !== null ? "btn btn-primary btn-sm mt-4" : "btn btn-primary btn-sm mt-4 btn-disabled"}
+          className={
+            data.link !== null
+              ? "btn bg-black rounded-xl btn-sm mt-4 text-white"
+              : "btn bg-black rounded-xl btn-sm mt-4 btn-disabled"
+          }
         >
           {data.link !== null ? "View Project" : "No Link Available"}
         </a>
