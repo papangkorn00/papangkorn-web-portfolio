@@ -1,6 +1,17 @@
 [
-  {
+   {
     "id": 1,
+    "title": "Comparative Study for Course Recommendation System",
+    "images": [
+      "/images/Research/1.jpg"
+    ],
+    "desc": "Research Lead & Full-Stack Developer for a course recommendation system. I led a team in benchmarking SVD, SVD++, NMF, and k-NN models on 43,000+ records, then developed a hybrid RAG recommender system using Next.js, FastAPI, and pgvector. Our findings and implementation were published in the ACM Digital Library under the 14th International Conference on Advances in Information Technology (IAIT).",
+    "status": "Completed",
+    "tags": ["Python", "Scikit-learn", "Surprise Package","RAG","FastAPI", "Semantic Search","Vector Database"],
+    "link": "https://dl.acm.org/doi/10.1145/3816713.3818224"
+  },
+  {
+    "id": 2,
     "title": "Kanban Board",
     "images": [
       "/images/KanbanBoard/1.png",
@@ -27,7 +38,7 @@
     "link": "https://github.com/INT221-INTEGRATED-TT1/INT221_Frontend-Kanban"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Employees Management",
     "images": [
       "/images/EmployeesManagement/1.png",
@@ -44,7 +55,7 @@
     "link": "https://employees-management-feedback.vercel.app"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Simon Says Game",
     "images": [
       "images/SimonSays/1.png",
@@ -56,14 +67,6 @@
     "status": "Completed",
     "tags": ["Vue.js", "Tailwind CSS"],
     "link": "https://xiaoyi-say.vercel.app"
-  },
-  {
-    "id": 4,
-    "title": "Comparative Study for Course Recommendation System",
-    "images": [],
-    "desc": "Senior Project comparative study of Recommendation System models using SVD, SVD++, NMF, and k-NN.",
-    "status": "In Progress",
-    "tags": ["Python", "Scikit-learn", "Surprise Package"],
-    "link": null
   }
+ 
 ]
