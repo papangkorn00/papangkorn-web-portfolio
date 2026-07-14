@@ -1,0 +1,72 @@
+[
+   {
+    "id": 1,
+    "title": "Comparative Study for Course Recommendation System",
+    "images": [
+      "/images/Research/1.jpg"
+    ],
+    "desc": "Research Lead & Full-Stack Developer for a course recommendation system. I led a team in benchmarking SVD, SVD++, NMF, and k-NN models on 43,000+ records, then developed a hybrid RAG recommender system using Next.js, FastAPI, and pgvector. Our findings and implementation were published in the ACM Digital Library under the 14th International Conference on Advances in Information Technology (IAIT).",
+    "status": "Completed",
+    "tags": ["Python", "Scikit-learn", "Surprise Package","RAG","FastAPI", "Semantic Search","Vector Database"],
+    "link": "https://dl.acm.org/doi/10.1145/3816713.3818224"
+  },
+  {
+    "id": 2,
+    "title": "Kanban Board",
+    "images": [
+      "/images/KanbanBoard/1.png",
+      "/images/KanbanBoard/2.png",
+      "/images/KanbanBoard/3.png",
+      "/images/KanbanBoard/4.png",
+      "/images/KanbanBoard/5.png",
+      "/images/KanbanBoard/6.png",
+      "/images/KanbanBoard/7.png",
+      "/images/KanbanBoard/8.png",
+      "/images/KanbanBoard/9.png",
+      "/images/KanbanBoard/10.png"
+    ],
+    "desc": "Task management Platform where users can create, edit and delete tasks. It also allows customization of task statuses. This project was developed using Vue.js, Spring Boot,  MySQL, Docker and JWT.",
+    "status": "Completed",
+    "tags": [
+      "Vue.js",
+      "Pinia",
+      "Tailwind CSS",
+      "Spring Boot",
+      "MySQL",
+      "Docker"
+    ],
+    "link": "https://github.com/INT221-INTEGRATED-TT1/INT221_Frontend-Kanban"
+  },
+  {
+    "id": 3,
+    "title": "Employees Management",
+    "images": [
+      "/images/EmployeesManagement/1.png",
+      "/images/EmployeesManagement/2.png",
+      "/images/EmployeesManagement/3.png",
+      "/images/EmployeesManagement/4.png",
+      "/images/EmployeesManagement/5.png",
+      "/images/EmployeesManagement/6.png",
+      "/images/EmployeesManagement/7.png"
+    ],
+    "desc": "Website that designed to collect personal opinions from employees to help improve the company's environment. It also includes features such as user authentication to ensure proper access.",
+    "status": "Completed",
+    "tags": ["Vue.js", "Pinia", "Tailwind CSS", "Json-Server"],
+    "link": "https://employees-management-feedback.vercel.app"
+  },
+  {
+    "id": 4,
+    "title": "Simon Says Game",
+    "images": [
+      "images/SimonSays/1.png",
+      "images/SimonSays/2.png",
+      "images/SimonSays/3.png",
+      "images/SimonSays/4.png"
+    ],
+    "desc": "Single-player game where the system generates a random sequence of colors, and the user needs to replicate the sequence by selecting the colors in the correct order.",
+    "status": "Completed",
+    "tags": ["Vue.js", "Tailwind CSS"],
+    "link": "https://xiaoyi-say.vercel.app"
+  }
+ 
+]
